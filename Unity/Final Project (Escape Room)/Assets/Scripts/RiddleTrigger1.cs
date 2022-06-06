@@ -20,7 +20,7 @@ public class RiddleTrigger1 : MonoBehaviour
             Debug.Log("No Damage. Reread the riddle and try again.");
         }
 
-        if (Input.GetMouseButton(0) == Axe)
+        else if (Input.GetMouseButton(0) == Axe)
         {
             Debug.Log("DAMAGE. You are correct.");
         }
@@ -30,7 +30,7 @@ public class RiddleTrigger1 : MonoBehaviour
     {
         if (collision.gameObject.tag == "Knight")
         {
-            Debug.Log("I am sharp to the point and single-handled. I can be used for battle, but not well. Click who am I?");
+            Debug.Log("I am sharp to the point and single-handled. I can be used for battle, but not well. Click who am I.");
         }
     }
 
